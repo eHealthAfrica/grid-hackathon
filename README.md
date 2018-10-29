@@ -1,0 +1,3 @@
+# GRID3 Hackathon
+
+> {Introduction, Schedule & More} ...
