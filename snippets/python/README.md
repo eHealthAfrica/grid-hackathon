@@ -7,7 +7,7 @@ This python code snippet provides convenient access to the GRID API Datasets for
 # Usage
 
 ```python
-from grid_api.py import fetch
+from grid_api.py import datasets
 
 resource_name = "schools" # Name of endpoint
 size = 200 # Number of items to return
@@ -15,7 +15,7 @@ page = 1 # Page Number to return
 sort_by = "lga_name" # Field used in sorting responses
 fields = "lga_name,state_name,ward_name" # Comma-separated list of fields (No space)
 
-response = fetch(resource_name) # You can optionally pass other parameters as defined above
+response = datasets(resource_name) # You can optionally pass other parameters as defined above
 print(response)
 ```
 * Required Parameters: `resource_name`
