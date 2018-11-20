@@ -12,6 +12,9 @@ const datasets = (resource_name, size = 200, page = 1, sort_by = "global_id", fi
             fields: fields
         }
     }).then(response => {
+        console.log(response.data)
         return response.data
     })
 }
+
+module.exports.datasets = datasets
