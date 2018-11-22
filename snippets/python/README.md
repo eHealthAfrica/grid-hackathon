@@ -8,7 +8,7 @@ This python code snippet provides convenient access to the GRID API Datasets for
 # Sample Usage
 
 ```python
-from grid_api.py import datasets
+from grid_api.py import getDatasets
 
 resource_name = "schools" # Name of endpoint
 size = 10 # Number of items to return
@@ -17,7 +17,7 @@ sort_by = "lga_name" # Field used in sorting responses
 fields = "lga_name,state_name,ward_name" # Comma-separated list of fields (No space)
 cql = "state_name IN ('Kaduna', 'Kano')" # Read documentations about Querying/Filtering (CQL)
 
-respoonse = datasets(resource_name=resource_name, size=size, cql=cql) # You can optionally pass other parameters as defined above
+response = getDatasets(resource_name=resource_name, size=size, cql=cql) # You can optionally pass other parameters as defined above
 print(response)
 ```
 

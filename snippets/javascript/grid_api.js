@@ -2,7 +2,7 @@ const axios = require("axios")
 
 let url = "https://api.grid-nigeria.org/"
 
-const datasets = (resource_name, size = 200, page = 1, sort_by = "global_id", fields = "", cql = "") => {
+const getDatasets = (resource_name, size = 200, page = 1, sort_by = "global_id", fields = "", cql = "") => {
     const endpoint = `${url}${resource_name}`
     axios.get(endpoint, {
         params: {
@@ -18,4 +18,4 @@ const datasets = (resource_name, size = 200, page = 1, sort_by = "global_id", fi
     })
 }
 
-module.exports.datasets = datasets
+module.exports.getDatasets = getDatasets
