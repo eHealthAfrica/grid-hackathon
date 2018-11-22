@@ -34,10 +34,10 @@ To learn more about how to build CQL expressions checkout [this](https://hicsunt
 ### CQL Examples
 CQL supports following operators:
 
-Comparison operators: `=`, `<>`, `>`, `>=`, `<`, `<=`
-Id, list and other operators: `BETWEEN`, `BEFORE`, `AFTER`, `LIKE`, `IS`, `EXISTS`, `NOT`, `IN`
-Arithmetic expression operators: `+`, `-`, `*`, `/`
-Geometric operators: `EQUALS`, `DISJOINT`, `INTERSECTS`, `TOUCHES`, `CROSSES`, `WITHIN`, `CONTAINS`, `OVERLAPS`, `RELATE`, `DWITHIN`, `BEYOND`
+Comparison operators: `=`, `<>`, `>`, `>=`, `<`, `<=` <br>
+Id, list and other operators: `BETWEEN`, `BEFORE`, `AFTER`, `LIKE`, `IS`, `EXISTS`, `NOT`, `IN` <br>
+Arithmetic expression operators: `+`, `-`, `*`, `/` <br>
+Geometric operators: `EQUALS`, `DISJOINT`, `INTERSECTS`, `TOUCHES`, `CROSSES`, `WITHIN`, `CONTAINS`, `OVERLAPS`, `RELATE`, `DWITHIN`, `BEYOND` <br>
 
 - Scenario:
     Get all datasets from API where `state_name` is `Kano` and `Kaduna`.
