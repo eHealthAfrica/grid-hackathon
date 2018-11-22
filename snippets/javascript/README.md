@@ -1,7 +1,7 @@
 # GRID API Snippets
 This javascript code snippet provides convenient access to the GRID API Datasets for Javascript developers.
 # Requirements
-- Install requests library: `npm install axios`
+- Install axios library: `npm install axios`
 - Access the API documentation here: https://api.grid-nigeria.org/docs
 
 # Sample Usage
