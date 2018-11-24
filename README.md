@@ -11,4 +11,4 @@ We’ve also written some snippets of code to help you get started easily:
 
 - JavaScript Snippets: https://github.com/eHealthAfrica/grid-hackathon/tree/master/snippets/javascript
 
-*If you're participatig online, kindly find access to the Agenda [here](https://github.com/eHealthAfrica/grid-hackathon/blob/master/KadHack%20agenda%202.png?raw=true)*
+*If you're participatig onsite (in Kaduna), kindly find access to the Agenda [here](https://github.com/eHealthAfrica/grid-hackathon/blob/master/KadHack%20agenda%202.png?raw=true)*
