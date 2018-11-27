@@ -14,7 +14,7 @@ The hackathon presents an opportunity for stakeholders in the tech sector to eng
 ## Resources
 
 **Problem Statement**  
-Find details for the problem statement [here](./problem-statement.md)
+Find details for the problem statement [here](./Problem-Statement.md)
 
 **API**  
 You can find access to the GRID API Documentation here: https://api.grid-nigeria.org/docs
@@ -28,4 +28,4 @@ We’ve also written some snippets of code to help you get started easily:
 *If you're participatig onsite (in Kaduna), kindly find access to the Agenda [here](https://github.com/eHealthAfrica/grid-hackathon/blob/master/KadHack%20agenda%202.png?raw=true)*
 
 **Judging Criteria**  
-Find details for judging criteria [here](./judging-criteria.md)
+Find details for judging criteria [here](./Judging-Criteria.md)
